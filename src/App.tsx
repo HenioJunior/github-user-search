@@ -1,7 +1,12 @@
 import React from 'react';
+import './app.scss';
+import './core/assets/styles/custom.scss';
+import Routes from './Routes';
 
 const App = () => {
-return <h1>Hello App</h1>
+return (
+<Routes />
+);
 }
 
 export default App;
