@@ -1,13 +1,9 @@
 import React from 'react';
-import { useHistory } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import ButtonIcon from '../../core/components/ButtonIcon';
 import './styles.scss';
 
 const Home = () => {
-  const history = useHistory();
-  
-  const handleCreate = () => {
-    history.push('/before');
-  }
 
 return (
   <div className="row">
@@ -26,9 +22,9 @@ return (
     Mateusz Wierzbicki:
     <a href="https://mail.google.com">antforfigma@gmail.com</a>;
     </p>
-    <button className="btn btn-primary btn-lg btn-icon btn-font" onClick={handleCreate}>
-      Começar
-    </button>
+    <Link to="/before">
+      <ButtonIcon text="Começar" />
+      </Link>
 
   </div>
 </div>
