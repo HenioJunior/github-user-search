@@ -1,4 +1,5 @@
 export type UserResponse = {
+    html_url: string;
     login: string;
     company: string;
     blog: string;
