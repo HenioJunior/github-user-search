@@ -1,39 +1,119 @@
-.admin-base-form {
-    position: absolute;
-    width: 1251px;
-    height: 270px;
-    left: 90px;
-    top: 116px;
- }
+.search-cotainer {
+    padding: 50px 0 50px 90px;
+}
 
- .base-form-title {
-    position: absolute;
-    width: 502px;
-    height: 46px;
-    left: 94px;
-    top: 66px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
+.search-content {
     font-size: 38px;
     line-height: 46px;
-    color: #262626; 
+    color: #262626;
 }
 
-.btn-styles {
-    position: absolute;
-    width: 101px;
+.search-btn{
+    color: #ffffff;
+}
+
+.input-search {
+    width: 675px;
     height: 40px;
-    left: 94px;
-    top: 188px;
-    background: #1890FF;
+    background: #ffffff;
+    border: 1px solid #d9d9d9;
+    box-sizing: border-box;
     border-radius: 4px;
-    top: calc(50% - 24px/2 + 73px);
-    font-family: Roboto;
-    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 25px;
     font-size: 16px;
     line-height: 24px;
-    color: #FFFFFF;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 15px;
 }
 
+.padd {
+    padding-top: 65px;
+    padding-left: 90px;
+}
+
+.btn {
+    margin-bottom: 45px;
+}
+
+.user-container {
+    width: 1250px;
+    margin-top: 55px;
+    background: #f5f5f5;
+    border-radius: 8px;
+}
+.user-content {
+    padding: 25px 25px 30px 30px;
+
+    .btn {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+}
+
+.user-img {
+    width: 280px;
+    height: 280px;
+    position: absolute;
+
+    img {
+        width: 100%;
+    }
+}
+
+.user-info-top {
+    vertical-align: top;
+    margin-left: 325px;
+}
+
+.sp {
+    background: #ffffff;
+    border: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    align-items: center;
+    color: #595959;
+    padding: 1px 14px 1px 14px;
+}
+
+.user-info {
+    width: 870px;
+    height: 250px;
+    background: #ffffff;
+    border: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10px;
+}
+
+.info {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #1890ff;
+    margin-bottom: 20px;
+}
+
+.info-user {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    background: #ffffff;
+    border: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    padding: 8px 10px;
+}

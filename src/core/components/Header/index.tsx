@@ -1,11 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './styles.scss';
 
 const Header = () => (
-  <div className="row bg-primary header-container">
-    <a href="/" className="header-title">
-      <h4>Bootcamp DevSuperior</h4>
-    </a>
+  <div className="header-container">
+      <div className="header-title">
+          <Link to="/">
+              Bootcamp DevSuperior
+          </Link>
+      </div>
+
   </div>
 );
 
