@@ -6,20 +6,16 @@
   grid-template-columns: 1fr 3fr;
 }
 
-.search-result-content-col-1 {
-  display: block;
-}
-
 .search-result-content-img{
-  width: 285px;
-  height: 281px;
+  width: 284px;
+  height: 280px;
   display: flex;
   margin: 0px 0px 20px 0px;
 }
 
 .search-result-content-col-2 {
   margin-top: 0px;
-  margin-left: 33px;
+  margin-left: 30px;
 }
 
 .search-result-content-info-1 {
@@ -28,7 +24,7 @@
 }
 
 .content-info-1-field-repo {
-  width: 175px;
+  width: 163px;
   background: #FFFFFF;
   border: 1px solid #D9D9D9;
   box-sizing: border-box;
@@ -39,11 +35,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 11px;
+  margin-right: 8px;
 }
 
 .content-info-1-field-followers {
-  width: 125px;
+  width: 118px;
   background: #FFFFFF;
   border: 1px solid #D9D9D9;
   box-sizing: border-box;
@@ -54,11 +50,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 11px;
+  margin-right: 8px;
 }
 
 .content-info-1-field-following {
-  width: 115px;
+  width: 105px;
   background: #FFFFFF;
   border: 1px solid #D9D9D9;
   box-sizing: border-box;

@@ -16,7 +16,7 @@ const SearchResult = ({ html_url, avatar_url, public_repos, followers, following
    return (
       <div className="search-result-container">
          
-         <div className="search-result-content-col-1">
+         <div>
             <img src={avatar_url} alt="Imagem Perfil GitHub" className="search-result-content-img" />
             <span>
                <a href={html_url} target="_new">
